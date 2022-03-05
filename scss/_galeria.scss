@@ -1,0 +1,63 @@
+.sec1Galeria {
+    background-color: #86868650;
+}
+.navGaleria {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    .itemsNavGaleria {
+        text-decoration: none;
+        font-size: 15px;
+        padding: 2px 5px;
+        margin: 3px 10px;
+        color: black;
+        &:hover {
+            font-weight:700;
+        }
+    }
+}
+.sec2Galeria1Titulo {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.sec2Galeria1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    .sec2Galeria11 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.sec2Galeria2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .sec2Galeria21 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.sec2Galeria3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .sec2Galeria31 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}

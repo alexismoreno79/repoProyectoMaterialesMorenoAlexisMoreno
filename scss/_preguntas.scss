@@ -1,0 +1,63 @@
+.sec1Preguntas {
+    background-color: #86868650;
+}
+.navPreguntas {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    .itemsNavPreguntas {
+        text-decoration: none;
+        font-size: 15px;
+        padding: 2px 5px;
+        margin: 3px 10px;
+        color: black;
+        &:hover {
+            font-weight:700;
+        }
+    }
+}
+.sec2Preguntas1Titulo {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.sec2Preguntas1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    .sec2Preguntas11 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.sec2Preguntas2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .sec2Preguntas21 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.sec2Preguntas3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .sec2Preguntas31 {
+        display: grid;
+        padding: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}

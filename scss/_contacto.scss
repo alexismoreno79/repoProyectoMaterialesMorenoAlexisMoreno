@@ -1,0 +1,33 @@
+.mainContacto {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    .mainContactoSec1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: auto;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .mainContactoSec2 {
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        justify-items: center;
+        .mainContactoFormulario {
+            width: 480px;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 30px 30px 30px 250px 30px;
+            background-color: #97979750;        
+            .mainContactoFormulario1 {
+                justify-self: end;
+                padding-right: 5px;
+            }
+        }
+    }
+}

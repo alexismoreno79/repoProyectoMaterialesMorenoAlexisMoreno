@@ -1,0 +1,36 @@
+.sec1Productos {
+    background-color: #86868650;
+}
+.navProductos {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    .itemsNavProductos {
+        text-decoration: none;
+        font-size: 15px;
+        padding: 2px 5px;
+        margin: 3px 10px;
+        color: black; 
+        &:hover {
+            font-weight:700;
+        }
+    }
+}
+.listaPoductos {
+    list-style: none;
+}
+.sec2Productos {
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+}
+.sec2Productosdiv {
+    width: 260px;
+    height: 80%;
+    padding: 10px;
+    background-color: #d6ccfc60;
+}
