@@ -31,14 +31,14 @@
     justify-content: center;
     align-items: center;
 }
-.contactosSitio {
+.headerSitio12 ul {
     display: grid;
     width: 100%;
     justify-content: flex-end;
     list-style: none;
     flex-wrap: wrap;
 }
-.itemsContactosSitio {
+.headerSitio12 ul li {
     display: flex;
     text-decoration: none;
     font-size: 11px;
@@ -50,10 +50,12 @@
     align-items: center;
     text-align: center;    
 }
+/*
 .iconosSocialesSitio {
     width:25px;
     height:25px  
 }
+*/
 .bi-telephone-fill {
     font-size: 13px;
 }
@@ -90,20 +92,20 @@
 .bi-geo-alt-fill:hover {
     color: red;
 }
-
+/*
 .headerSitio2 {
     padding: 15px 0;
     background-color: black;
     font-family: 'Signika Negative', sans-serif;
 }
-.navSitio {
+header nav {
     display: flex;
     width: 100%;
     justify-content: flex-end;
     list-style: none;
     flex-wrap: wrap; 
 }
-.itemsNavSitio {
+header nav ul li {
     text-decoration: none;
     font-size: 12px;
     padding: 2px 5px;
@@ -114,22 +116,14 @@
 .estoyAqui {
     border: 1px solid white;
 }
-.itemsNavSitio:hover {
+header nav ul li:hover {
     border-radius: 7px;
     background-color: rgb(233, 233, 233);
     color: black;
 }
+*/
 
 /*                          footer css */
-
-.contactosSitio2 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    list-style: none;
-    flex-wrap: wrap;
-    color: white;
-}
 .footerSitio {
     display: flex;
     padding: 20px 0;
@@ -138,6 +132,26 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+}
+.footerSitio ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    color: white;
+}
+.footerSitio ul li {
+    display: flex;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    margin: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
 }
 
 /*                           main INICIO css*/
