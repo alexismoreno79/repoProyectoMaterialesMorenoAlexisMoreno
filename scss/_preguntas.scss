@@ -27,6 +27,13 @@
     font-size: 40px;
     font-family: 'Frank Ruhl Libre', serif;
 }
+.preguntasExtend{
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+/*
 .sec2Preguntas1 {
     display: flex;
     flex-direction: column;
@@ -39,15 +46,13 @@
         align-items: center;
     }
 }
+*/
 .sec2Preguntas2 {
     display: flex;
     flex-direction: column;
     justify-items: center;
     .sec2Preguntas21 {
-        display: grid;
-        padding: 10px;
-        justify-items: center;
-        align-items: center;
+        @extend .preguntasExtend;
     }
 }
 .sec2Preguntas3 {
@@ -55,9 +60,6 @@
     flex-direction: column;
     justify-items: center;
     .sec2Preguntas31 {
-        display: grid;
-        padding: 10px;
-        justify-items: center;
-        align-items: center;
+        @extend .preguntasExtend;
     }
 }

@@ -46,38 +46,29 @@
         margin: 10px;
         padding: 5px;
     }
+    @mixin estiloNosotros($bgColor){
+        width: 350PX;
+        margin: 20px;
+        border: 1px double black;
+        padding: 30px;
+        background-color: $bgColor;
+    }
     .seccion2Inicio12 {
         display: flex;
         padding: 15px;
         flex-wrap: wrap;
         justify-content: space-around;
         .seccion2Inicio121 {
-            width: 350PX;
-            margin: 20px;
-            border: 1px double black;
-            padding: 30px;
-            background-color: rgb(207, 207, 245);
+            @include estiloNosotros(rgb(207, 207, 245));
         }
         .seccion2Inicio122 {
-            width: 350PX;
-            margin: 20px;
-            border: 1px double black;
-            padding: 30px;
-            background-color: rgb(207, 245, 210);
+            @include estiloNosotros(rgb(207, 245, 210));
         }
         .seccion2Inicio123 {
-            width: 350PX;
-            margin: 20px;
-            border: 1px double black;
-            padding: 30px;
-            background-color: rgb(242, 207, 245);
+            @include estiloNosotros(rgb(242, 207, 245));
         }
         .seccion2Inicio124 {
-            width: 350PX;
-            margin: 20px;
-            border: 1px double black;
-            padding: 30px;
-            background-color: rgb(207, 239, 245);
+            @include estiloNosotros(rgb(207, 239, 245));
         }
         .seccion2Inicio121H3 {
             margin-bottom: 8px;
