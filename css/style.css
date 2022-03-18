@@ -115,7 +115,7 @@
 .navProductos {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 100px;
   justify-content: space-around;
   align-content: center;
   list-style: none;
@@ -149,7 +149,7 @@
 .navGaleria {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 100px;
   justify-content: space-around;
   align-content: center;
   list-style: none;
@@ -207,7 +207,7 @@
 .navPreguntas {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 100px;
   justify-content: space-around;
   align-content: center;
   list-style: none;
@@ -234,20 +234,6 @@
   justify-items: center;
   align-items: center; }
 
-/*
-.sec2Preguntas1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    .sec2Preguntas11 {
-        display: grid;
-        padding: 10px;
-        justify-items: center;
-        align-items: center;
-    }
-}
-*/
 .sec2Preguntas2 {
   display: flex;
   flex-direction: column;
@@ -287,7 +273,6 @@
         justify-self: end;
         padding-right: 5px; }
 
-/*                          header css */
 .headerSitio {
   width: 100%;
   display: flex;
@@ -357,7 +342,6 @@
   .bi-geo-alt-fill:hover {
     color: red; }
 
-/*                          footer css */
 .footerSitio {
   display: flex;
   padding: 20px 0;
@@ -385,7 +369,6 @@
       align-items: center;
       text-align: center; }
 
-/*                           main RESTO css*/
 .mainResto {
   font-family: 'Signika Negative', sans-serif;
   width: 100%;
@@ -403,7 +386,6 @@ h1 {
 h2 {
   font-size: 30px; }
 
-/*                           Media Query*/
 @media only screen and (max-width: 600px) {
   .contactosSitio {
     grid-template-columns: 100%;
@@ -413,7 +395,7 @@ h2 {
     height: calc(100vh - 248px); }
   .sec2Productos {
     grid-template-columns: 100%;
-    grid-template-rows: 780px 780px 420px 340px 250px;
+    grid-template-rows: 1260px 1260px 700px 560px 400px;
     justify-content: center; }
   .sec2Productos1 {
     height: 90%; }
@@ -459,7 +441,7 @@ h2 {
     height: calc(100vh - 136px); }
   .sec2Productos {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 900px 420px 250px;
+    grid-template-rows: 1430px 700px 400px;
     justify-content: space-between; }
   .sec2Galeria11 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -496,7 +478,7 @@ h2 {
     height: calc(100vh - 126px); }
   .sec2Productos {
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 420px 420px 250px;
+    grid-template-rows: 700px 550px 400px;
     grid-template-areas: "a1 a2 a3" "a1 a2 a4" "a1 a2 a5";
     justify-content: space-between; }
   .sec2Productos1 {

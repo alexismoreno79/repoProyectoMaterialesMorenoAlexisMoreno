@@ -1,0 +1,80 @@
+.headerSitio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    .headerSitio1 {
+        display: flex;
+        padding: 10px 0;
+        background-color: gray;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+        .headerSitio11 {
+            display: flex;
+            width: 30%;
+            align-items: center;
+            justify-content: center;
+        }
+        .headerSitio12 {
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+            ul {
+                display: grid;
+                width: 100%;
+                justify-content: flex-end;
+                list-style: none;
+                flex-wrap: wrap;
+                li {
+                    display: flex;
+                    text-decoration: none;
+                    font-size: 11px;
+                    padding: 5px;
+                    margin: 5px;
+                    color: white;
+                    margin: 0px 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;    
+                }
+            }
+        }
+    }
+}
+.bi-telephone-fill {
+    font-size: 13px;
+    &:hover {
+        color: black;
+    }
+}
+.bi-envelope {
+    font-size: 13px;
+    &:hover {
+        color: black;
+    }
+}
+.bi-whatsapp {
+    font-size: 13px;
+    &:hover {
+        color: rgb(53, 196, 53);
+    }
+}
+.bi-facebook {
+    font-size: 13px;
+    &:hover {
+        color: blue;
+    }
+}
+.bi-instagram {
+    font-size: 13px;
+    &:hover {
+        color: rgb(219, 83, 83);
+    }
+}
+.bi-geo-alt-fill {
+    font-size: 13px;
+    &:hover {
+        color: red;
+    }
+}
